@@ -1,3 +1,95 @@
 <html style="background:rgba(0,0,0,0.6)">
-<!-- Edit this file to contain the lightbox -->
+<style> 
+
+  .lightbox {
+  	width: 500px;
+    height: 400px;
+    background-color: white;
+
+    /*centered*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+  }
+
+  h1 {
+    color: #4B0532;
+    font-size: 25px;
+    padding-top: 20px;
+
+  }
+
+  figure { 
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #bar {
+    width: 300px;
+    height: 40px;
+    background-color: #4B0532;
+    color: white; 
+    margin: auto;
+  }
+
+  #bar_text{
+    padding-top: 10px;
+  }
+
+  .gray {
+    color: gray;
+    font-weight: bold;
+  }
+
+  .close_button:after {
+    content: '✖';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #777;
+  }
+
+ 
+</style>
+
+
+  <div class="lightbox">
+    
+    <h1> BOOK DIRECT. GET REWARDED. </h1>
+    <p> GET 3 FREE REWARDS LIKE:</p>
+      
+      <figure>
+        <img src="http://placehold.it/100x100">
+        <figcaption> Starbucks </figcaption>
+        <figcaption> Free Coffee <figcaption>
+      </figure>
+
+      <figure>
+        <img src="http://placehold.it/100x100">
+        <figcaption> United Airlines</figcaption>
+        <figcaption> Free $25 Credit <figcaption>
+      </figure>
+
+      <figure>
+        <img src="http://placehold.it/100x100">
+        <figcaption> Go-Go Wi-Fi </figcaption>
+        <figcaption> Free Wi-Fi <figcaption>
+      </figure>
+
+      <div id="bar">
+        <p id="bar_text"> Book Now + Get Free Rewards → </p>
+      </div>
+
+      <p class="gray"> Best Rate Guaranteed </p>
+      <a href="#" class="close_button"></a>
+
+  </div>
 </html>
